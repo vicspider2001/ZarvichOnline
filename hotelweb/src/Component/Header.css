@@ -1,0 +1,104 @@
+.twitr{
+    display: inline-block!important;
+}
+
+.facebk{
+    display: inline-block!important;
+}
+
+.insta{
+    display: inline-block!important;
+}
+
+.addrs{
+    display: inline-block!important;
+}
+
+.navtext{
+    text-decoration: none!important;
+    color: gold!important;
+    
+}
+.buttonformat{
+    background-color: rgb(238, 226, 160);
+    
+}
+.bg-dark{
+    background-color: black!important;
+}
+.bookbtn{
+    width: 100px;
+    background-color: rgb(238, 226, 160);
+    color: black;
+    margin-left: 20px;
+    height: 35px;
+    text-decoration: none!important;
+
+}
+.bookbtn2{
+    text-decoration: none!important;
+    color: black;
+}
+.alignmenu{
+    margin-left: 580px;
+}
+
+.shift{
+    margin-right: 20px;
+}
+
+.envelopefrmt{
+    color:rgb(236, 233, 233);
+    margin-top: 13px;
+}
+
+.color{
+    color: white !important;
+
+}
+
+.detext{
+    color: silver;
+    margin-right: 20px;
+}
+.black{
+    background-color:black;
+}
+
+.buttncontrol1{
+    margin-left: 760px;
+    
+}
+
+.buttncontrol5{
+    margin-left: 1000px;
+    
+}
+
+.buttncontrol3{
+    margin-left: 10px;
+    
+}
+.buttncontrol6{
+    margin-left: 8px;
+    
+}
+.buttncontrol2{
+    margin-left: 10px;
+    
+}
+
+.setmargin{
+    margin-left: 240px;
+    
+}
+
+.setmargin2{
+    margin-left: 240px;
+    
+}
+
+.buttncontrol7{
+    margin-left: 1px;
+    
+}

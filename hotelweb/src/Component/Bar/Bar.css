@@ -1,0 +1,627 @@
+.background10{
+    height:650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(23, 23, 71);
+}
+.backcolor{
+    background-color: rgb(23, 23, 71);
+}
+
+
+.formdesign10{
+    margin-top: 0px;
+    background-color: white;
+    width: 680px;
+    
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    
+}
+
+.formdesign11{
+    margin-top: 0px;
+    background-color: white;
+    width: 980px;
+    
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    
+}
+
+.background101{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(23, 23, 71);
+}
+
+.background11{
+    border:solid;
+    border-color: grey;
+    text-align: center;
+    
+}
+
+
+.formdesign11{
+    margin-top: 20px;
+    background-color: white;
+   
+}
+
+.btnwidth10{
+    width: 100%;
+    
+}
+
+.editselect{
+    color: rgb(12, 12, 145);
+    
+}
+.textdec{
+    text-decoration: none;
+}
+
+.adjust{
+    width:fit-content;
+}
+
+.adjust2{
+    width:fit-content;
+    text-align:center;
+    
+}
+
+.adjust2Nw{
+    width:fit-content;
+    text-align:center;
+    font-size: 14px!important;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+
+.space{
+    margin-left: 20px;
+}
+
+.alignroomsred{
+    
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width:130px;
+    height:80px;
+    background-color: red;
+    color:silver;
+}
+
+.alignroomsgreen3{
+    
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width:135px;
+    height:45px;
+    color:white;
+}
+
+.size{
+    font-size: 13px;
+    color:white;
+}
+.size2{
+    font-size: 9px;
+    color:white;
+}
+.top{
+    margin-top: -15px;
+}
+.formsize{
+    width:280px;
+}
+
+.formsize2{
+    width:160px;
+}
+.formsize3{
+    width:50px;
+}
+.formsize6{
+    width:200px;
+}
+
+.shiftinput{
+    margin-left:20px;
+}
+.formsize4{
+    width:180px;
+}
+.valid{
+    color:red;
+}
+
+.formatnew{
+    color:silver;
+}
+
+.formatnew2{
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.buttnheight{
+    height: 60px;
+    width: 117px;
+    
+}
+.card2{
+    height: 40px;
+    width: 17px;
+    
+}
+
+.buttnheight2{
+    height: 60px;
+    width: 120px;
+    
+}
+.display{
+    float:left;
+}
+.borders{
+    border: solid;
+    border-width: 1px;
+    height:fit-content;
+    margin-left:5px;
+}
+.border2{
+    margin-left: 25px;
+}
+
+.adjust{
+    width:fit-content;
+    font-size: 12.5px;
+}
+
+.cartBtn{
+    width:20px;
+    height:20px;
+}
+
+.cartBtn2{
+    width:50px;
+    height:25px;
+    margin-left: 10px;
+}
+
+.cartBtn20{
+    width:100px;
+    height:25px;
+    margin-left: 10px;
+}
+
+.cartBtn12{
+    width:100px;
+    height:27px;
+    margin-left: 10px;
+}
+
+.background591stockin{
+    height:350px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:rgb(23, 23, 71);
+}
+
+.cartBtn112{
+    width:100px;
+    height:27px;
+    margin-left: 5px;
+}
+
+.cartBtn13{
+    width:120px;
+    height:27px;
+    margin-left: 10px;
+}
+
+.texted{
+    font-size:10px;
+    text-align: center;
+}
+
+.texted8{
+    font-size:9px;
+    
+}
+
+.texted8Nw{
+    font-size:14px!important;
+    font-family: monospace;
+    font-weight: bolder;
+    
+}
+.texted{
+    font-size:10px;
+    text-align: left;
+    margin-left: 5px;
+    
+    
+    
+}
+
+.texted2{
+    font-size:12px;
+    text-align: left;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.formsize3{
+    width:100px;
+}
+
+.fmtbtn{
+    background-color:none;
+    border-style: none;
+    width:2px;
+    height:2px;
+
+}
+
+
+body {
+    background-color: white;
+  }
+  .print-source {
+    display: none;
+    background-color: white;
+  }
+  
+  body > .print-source {
+    display: block;
+  }
+  
+  @media print {
+    .print-source {
+      display: block;
+      background-color: white;
+    }
+}
+
+.formsizeA{
+    width:150px;
+    font-style: bold;
+    margin-left: 15px;
+ 
+}
+
+.formsizeA1{
+    width:130px;
+    font-style: bold;
+    margin-left: 15px;
+    
+}
+.fmtcost{
+    margin-left: 5px;
+    float: left;
+    
+}
+
+
+.fmtcost2{
+    margin-left: 5px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.texted4{
+    font-size:10px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+    
+}
+.formsizeB{
+    width:56px;
+    height: 27px;
+    font-style: bold;
+    margin-left: 8px;
+    display:inline-block;
+    margin-top: 9px;
+    
+}
+
+.formsizeX{
+    width:70px;
+    height: 40px;
+    background-color:red;
+    
+}
+.formsizeX1{
+    width:35px;
+    height: 30px;
+    font-style: bold;
+    background-color:black;
+    color:white;
+}
+.textedM{
+    font-size:13px;
+    text-align: left;
+    
+}
+
+.cartBtn4{
+    width:80px;
+    height:25px;
+    margin-left: 10px;
+}
+
+.bgc{
+    background-color:black;
+}
+
+.pagebody3{
+    height:600px;
+    width:100%;
+    background-color: rgb(23, 23, 71);
+}
+
+.pagebody4{
+    background-color: white;
+    height:fit-content;
+}
+
+.cartBtn3{
+    width:50px;
+    height:27px;
+    margin-left: 5px;
+}
+
+.pagebody5{
+    
+    background-color:rgb(23, 23, 71);
+}
+
+.alignroomsgreen2{
+    
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+   
+}
+
+
+.posterminal{
+    position:relative;
+    height:800px;
+    width:100%;
+    background-color:rgb(23, 23, 71);
+}
+
+.dcrbtn{
+    position:absolute;
+    top:50px;
+}
+
+.qtybtn{
+    position:absolute;
+    top:50px;
+    left:60px;
+    
+}
+
+.incbtn{
+    position:absolute;
+    top:50px;
+    left:135px;
+}
+
+.sign{
+    position:absolute;
+    top:-1px;
+    font-size: 20px;
+}
+
+.addbtn{
+    position:absolute;
+    width:auto;
+    height:auto;
+    left:206px;
+    top:50px;
+
+}
+.prices{
+    position:absolute;
+    width:auto;
+    height:auto;
+    left:200px;
+    top:5px;
+    color:white;
+    font-size: 12px;
+}
+
+.prices2{
+    position:absolute;
+    width:auto;
+    height:auto;
+    left:-7px;
+    top:5px;
+    color:white;
+    font-size: 12px;
+}
+
+.quantity{
+    position:absolute;
+    height:110px;
+    width:300px;
+    padding:20px;
+    border:solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 8px;
+    left:20px;
+    
+}
+
+.salesTable{
+    position:absolute;
+    width:350px;
+    padding:10px;
+    height:400px;
+    right:10px;
+    top:50px;
+}
+
+
+.amountP{
+    position:absolute;
+    top:148px;
+    padding:5px;
+
+}
+
+.method{
+    position:absolute;
+    left:140px;
+    top:148px;
+    padding:5px;
+    
+}
+
+.textAmount{
+    position:absolute;
+    right:220px;
+    top:23px;
+}
+
+.textAmount2{
+    position:absolute;
+    right:110px;
+    top:23px;
+
+}
+
+.operations{
+    position:absolute;
+    width:300px;
+    top:200px;
+    left:10px;
+    padding:10px;
+    border:solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 8px;
+}
+
+.tables{
+    position:absolute;
+    width:300px;
+    padding:10px;
+    border:solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 8px;
+    top:390px;
+    left:10px;
+    padding:10px;
+}
+
+.mainmenu{
+    position:absolute;
+    width:600px;
+    left:330px;
+    
+
+}
+
+.menulistItems{
+    position:absolute;
+    width:600px;
+    left:330px;
+    top: 250px!important;
+}
+
+
+.form-control2{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: red;
+
+}
+
+.textSized{
+    font-size: 12px;
+    font-style: italic;
+    line-height: 3px;
+
+}
+
+.textSized2{
+    font-size: 14px!important;
+    font-style: italic;
+    line-height: 3px;
+    font-family:monospace;
+    font-weight: bolder;
+    
+}
+
+@media print and (width: 80mm) and (height: 80mm) {
+    @page {
+        size: 80mm 210mm;
+        size: portrait;
+    }
+
+    .printing{
+        display: none !important;
+    }
+
+    /* .posPrint{
+        width:80mm;
+        
+    } */
+}
+
+/* @media print{
+        
+    .printing{
+        display: none !important;
+    }
+
+    @page{
+        size: 80mm 210mm;
+        size: portrait;
+    }
+        
+} */
+
+
+
+
+@media (max-width: 980px) {
+
+}
+
+
+@media (max-width: 980px) {
+
+}
+

@@ -1,0 +1,25 @@
+.background14{
+    height:450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(23, 23, 71);
+}
+
+.formdesign14{
+    margin-top: 0px;
+    background-color: white;
+    width: 280px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    
+}
+
+.btnwidth14{
+    width: 100%;
+    
+}
+

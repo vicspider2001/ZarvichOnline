@@ -1,0 +1,499 @@
+.Dashbackground{
+    position:relative;
+    width:100%;
+    height:110vh;
+    background-color: rgb(23, 23, 71);
+
+}
+.setbutton{
+    font-size: 12.5px!important;
+    width: 120px!important;
+}
+
+.butncontrl{
+    display: flex;
+    margin-left: 5px!important; 
+    flex-direction: row;
+}
+
+.setHeight{
+    height: 170px!important;
+}
+
+/* .space{
+    margin-left: 5px;
+    float: left!important;
+    
+} */
+
+/* .space2{
+    margin-left: 20px;
+    float: left!important;
+    
+} */
+
+.missionvission{
+    height:100%;
+    position:relative;
+    background-color:white;
+
+}
+
+.adjust{
+    width:fit-content;
+}
+
+.adjust2{
+    width:fit-content;
+    text-align:center;
+    
+}
+
+.texted8Nw{
+    font-size:14px!important;
+    font-family: monospace;
+    font-weight: bolder;
+    
+}
+
+.salesTable{
+    position:absolute;
+    width:350px;
+    padding:10px;
+    height:400px;
+    right:10px;
+    top:50px;
+}
+
+.texted{
+    font-size:10px;
+    text-align: center;
+}
+
+.cartBtn3{
+    width:50px;
+    height:37px;
+    margin-left: 5px; 
+    float:left;
+    
+}
+
+.cartBtn4new{
+    width:200px;
+    height:50px;
+    margin-left: 10px!important; 
+    font-size: 14px!important;
+    
+    
+}
+
+.tables{
+    position:absolute;
+    width:300px;
+    padding:10px;
+    border:solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 8px;
+    top:390px;
+    left:10px;
+    padding:10px;
+}
+
+alignroomsgreen2{
+    
+    
+    margin-top: 4px;
+    font-size: 8px;
+   
+}
+
+.tableBody{
+    width:80%;
+    margin-right: 40px;
+}
+
+.editsub{
+    font-size: 13px;
+    float: right;
+}
+.missionStatement{
+    position:absolute;
+    left:10px;
+    top:96px;
+    color:black;
+    width:auto;
+}
+
+.size13{
+    font-size: 20px!important;
+    position:absolute;
+    right:30px;
+    top:15px;
+}
+
+.miniDash{
+    position:absolute;
+    top:30px;
+}
+
+
+.heading{
+    color:silver;
+    position:absolute;
+    left:20px;
+    top:10px;
+}
+
+.heading2{
+    color:silver;
+    position:absolute;
+    left:670px;
+    top:203px;
+
+}
+
+.logout{
+    font-size: 13px;
+}
+
+.DashSheet1{
+    position: absolute;
+    width:250px;
+    height:auto;
+    background-color:darkviolet;
+    color:white;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px!important;
+    left:15px;
+    top:15px;
+    
+}
+
+.DashSheet2{
+    position: absolute;
+    width:250px;
+    height:auto;
+    background-color:darkviolet;
+    color:white;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px!important;
+    left:278px;
+    top:15px;
+    
+}
+
+.DashSheet3{
+    position: absolute;
+    width:250px;
+    height:auto;
+    background-color:darkviolet;
+    color:white;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px!important;
+    left:540px;
+    top:15px;
+    
+}
+
+.DashSheet4{
+    position: absolute;
+    width:250px;
+    height:auto;
+    background-color:darkviolet;
+    color:white;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px!important;
+    left:278px;
+    top:100px;
+    
+
+}
+
+.DashSheet5{
+    position: absolute;
+    width:250px;
+    height:auto;
+    background-color:darkviolet;
+    color:white;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius:5px!important;
+    left:15px;
+    top:100px;
+    
+}
+
+.DashSheet6{
+    position: absolute;
+    width:250px;
+    height:auto;
+    background-color:darkviolet!important;
+    color:white;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px!important;
+    left:540px;
+    top:100px;
+    
+}
+
+.DashSheet7{
+    position: absolute;
+    width:250px;
+    height:auto;
+    background-color:orangered;
+    color:white;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px!important;
+    left: 540px !important;
+    top: 170px !important;
+    
+}
+
+
+
+.textEdit1{
+   color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.textEdit2{
+   color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.placeTxt{
+    font-size: 13px;
+    color:silver;
+    position:absolute;
+    left:60px;
+    top:48px;
+}
+
+.chart{
+    position:absolute;
+    top:250px;
+    left:15px;
+    width:65%;
+    
+}
+
+.restTab{
+    position:absolute;
+    top:15px;
+    right:50px;
+    width:30%;
+    
+}
+
+
+
+
+
+@media (max-width: 700px) {
+    .Dashbackground{
+        position:relative;
+        width:100%;
+        height:100vh;
+        background-color: rgb(23, 23, 71);
+    
+    }
+
+    .missionvission{
+        height:100%;
+        position:relative;
+        background-color:white;
+    
+    }
+    .tableBody{
+        width:70%;
+        margin-right: 40px;
+    }
+    
+    .editsub{
+        font-size: 13px;
+        float: right;
+        margin-right: 40px!important;
+    }
+    .missionStatement{
+        position:absolute;
+        left:10px;
+        top:96px;
+        color:black;
+        width:auto;
+    }
+    
+    .size13{
+        font-size: 20px!important;
+        position:absolute;
+        right:30px;
+        top:15px;
+    }
+
+    .mobileText{
+        font-size:14px;
+    }
+    
+    .miniDash{
+        position:absolute;
+        top:50px;
+    }
+    
+    .heading{
+        color:silver;
+        position:absolute;
+        left:20px;
+        top: 5px !important;
+    }
+
+    .heading2{
+        color:silver;
+        position:absolute;
+        left:250px;
+        top:280px;
+    
+    }
+    
+    .DashSheet1{
+        position: absolute;
+        width:180px;
+        height:60px;
+        background-color:darkviolet;
+        color:white;
+        font-weight:bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        /* border-radius: 5px; */
+        left:5px;
+        top:15px;
+        
+    }
+    
+    .DashSheet2{
+        position: absolute;
+        width:180px;
+        height:60px;
+        background-color:darkviolet;
+        color:white;
+        font-weight:bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        /* border-radius: 10px!important; */
+        left:191px;
+        top:15px;
+        
+    }
+    
+    .DashSheet3{
+        position: absolute;
+        width:180px;
+        height:60px;
+        background-color:darkviolet;
+        color:white;
+        font-weight:bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        /* border-radius: 10px!important; */
+        left:191px;
+        top:90px;
+        
+    
+    }
+    
+    .DashSheet4{
+        position: absolute;
+        width:180px;
+        height:60px;
+        background-color:darkviolet;
+        color:white;
+        font-weight:bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        /* border-radius: 10px!important; */
+        left:5px;
+        top:167px;
+        
+    
+    }
+    
+    .DashSheet5{
+        position: absolute;
+        width:180px;
+        height:60px;
+        background-color:darkviolet;
+        color:white;
+        font-weight:bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        /* border-radius: 10px!important; */
+        left:5px;
+        top:90px;
+        
+    }
+    
+    .DashSheet6{
+        position: absolute;
+        width:180px;
+        height:60px;
+        background-color:orangered;
+        color:white;
+        font-weight:bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        /* border-radius: 10px!important; */
+        left:191px;
+        top:167px;
+        
+    }
+    
+    
+    
+    .textEdit1{
+       color:white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    
+    .textEdit2{
+       color:white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .chart{
+        position:absolute;
+        top:315px;
+        left:15px;
+        width:95%;
+        
+    }
+
+    .placeTxt{
+        font-size: 13px;
+        color:silver;
+        position:absolute;
+        left:42px;
+        top:40px;
+    }
+    
+}
+

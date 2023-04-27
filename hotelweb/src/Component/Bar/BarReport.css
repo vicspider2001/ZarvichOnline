@@ -1,0 +1,105 @@
+.background15{
+    height:450px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(23, 23, 71);
+}
+
+.background15b{
+    height:680px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(23, 23, 71);
+}
+
+.background15ba{
+    height:1080px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(23, 23, 71);
+}
+
+.formdesign15{
+    margin-top: 0px;
+    background-color: white;
+    width: 280px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    
+}
+
+.formdesign152{
+    margin-top: 0px;
+    background-color: white;
+    width: 280px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    
+}
+
+.formsize51{
+    width:100%;
+    background-color: rgb(23, 23, 71);
+    color:white;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 15px;
+
+}
+.formsize91{
+    width:100%;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 15px;
+
+}
+
+.btnwidth15{
+    width: 100%;
+    
+}
+
+.alignImg{
+    float: left;
+}
+
+.textSize{
+    font-size: 12px;
+    font-style: italic;
+    line-height: 3px;
+}
+
+.adjust2{
+    width:fit-content;
+    
+}
+
+.pagebody3{
+    height:150px;
+    background-color: rgb(23, 23, 71);
+
+}
+
+.background590{
+    height:250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:rgb(23, 23, 71);
+}
+
+
