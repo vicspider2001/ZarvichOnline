@@ -135,6 +135,7 @@ alignroomsgreen2{
 .miniDash{
     position:absolute;
     top:30px;
+    left:50px;
 }
 
 
@@ -161,8 +162,8 @@ alignroomsgreen2{
     position: absolute;
     width:250px;
     height:auto;
-    background-color:darkviolet;
-    color:white;
+    background-color:darkviolet!important;
+    color:white!important;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
@@ -176,8 +177,8 @@ alignroomsgreen2{
     position: absolute;
     width:250px;
     height:auto;
-    background-color:darkviolet;
-    color:white;
+    background-color:darkviolet!important;
+    color: white !important;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
@@ -191,8 +192,8 @@ alignroomsgreen2{
     position: absolute;
     width:250px;
     height:auto;
-    background-color:darkviolet;
-    color:white;
+    background-color:darkviolet!important;
+    color:white!important;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
@@ -206,13 +207,13 @@ alignroomsgreen2{
     position: absolute;
     width:250px;
     height:auto;
-    background-color:darkviolet;
-    color:white;
+    background-color:darkviolet!important;
+    color: white!important;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     border-radius: 5px!important;
-    left:278px;
+    left:278px!important;
     top:100px;
     
 
@@ -237,14 +238,14 @@ alignroomsgreen2{
     position: absolute;
     width:250px;
     height:auto;
-    background-color:darkviolet!important;
-    color:white;
+    background-color:orangered!important;
+    color:white!important;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     border-radius: 5px!important;
-    left:540px;
-    top:100px;
+    left:540px!important;
+    top:100px!important;
     
 }
 
@@ -354,6 +355,7 @@ alignroomsgreen2{
     .miniDash{
         position:absolute;
         top:50px;
+        left:0px!important;
     }
     
     .heading{
@@ -375,14 +377,14 @@ alignroomsgreen2{
         position: absolute;
         width:180px;
         height:60px;
-        background-color:darkviolet;
-        color:white;
+        background-color:darkviolet!important;
+        color: white !important;
         font-weight:bold;
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding: 10px;
         /* border-radius: 5px; */
-        left:5px;
-        top:15px;
+        left:5px!important;
+        top:15px!important;
         
     }
     
@@ -390,14 +392,14 @@ alignroomsgreen2{
         position: absolute;
         width:180px;
         height:60px;
-        background-color:darkviolet;
-        color:white;
+        background-color:darkviolet!important;
+        color:white!important;
         font-weight:bold;
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding: 10px;
         /* border-radius: 10px!important; */
-        left:191px;
-        top:15px;
+        left:191px!important;
+        top:15px!important;
         
     }
     
@@ -405,14 +407,14 @@ alignroomsgreen2{
         position: absolute;
         width:180px;
         height:60px;
-        background-color:darkviolet;
-        color:white;
+        background-color:darkviolet!important;
+        color: white!important;
         font-weight:bold;
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding: 10px;
         /* border-radius: 10px!important; */
-        left:191px;
-        top:90px;
+        left:191px!important;
+        top:90px!important;
         
     
     }
@@ -421,14 +423,14 @@ alignroomsgreen2{
         position: absolute;
         width:180px;
         height:60px;
-        background-color:darkviolet;
-        color:white;
+        background-color:darkviolet!important;
+        color:white!important;
         font-weight:bold;
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding: 10px;
         /* border-radius: 10px!important; */
-        left:5px;
-        top:167px;
+        left: 5px !important;
+        top:90px!important;
         
     
     }
@@ -452,14 +454,14 @@ alignroomsgreen2{
         position: absolute;
         width:180px;
         height:60px;
-        background-color:orangered;
-        color:white;
+        background-color:orangered!important;
+        color: white!important;
         font-weight:bold;
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding: 10px;
         /* border-radius: 10px!important; */
-        left:191px;
-        top:167px;
+        left:191px!important;
+        top:167px!important;
         
     }
     

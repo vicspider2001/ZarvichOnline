@@ -43,9 +43,7 @@
     height:960px;
     align-items: center;
     justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: rgb(23, 23, 71);
+    background-color: white;
 }
 
 .background993b{
@@ -146,7 +144,7 @@
 }
 
 .alignTet2{
-    text-align: right!important;
+    text-align: left!important;
 }
 
 .mvrght{
@@ -237,12 +235,11 @@
     
 }
 .formdesign510{
-    margin-top: 80px !important;
+    margin-top: 5px !important;
     margin-left: 50px;
     background-color: white;
     width: 1150px;
-    border-style: solid;
-    border-color: white;
+    border-color: lightslategrey;
     border-radius: 5px;
     
 }
@@ -394,14 +391,21 @@
 }
 
 .adjust2{
-    width:fit-content;
+    width:80px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.adjusta{
+    width: 80px !important;
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
     
 }
 
 .adjust222{
-    width:81px;
+    width:42px;
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
     
@@ -421,7 +425,7 @@
     
 }
 .adjust225{
-    width:170px;
+    width:110px!important;
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
     
@@ -474,7 +478,7 @@
 }
 
 .adjust20{
-    width: 20px;
+    width: 20px!important;
     font-size: 12.5px;
     
 }
@@ -543,8 +547,9 @@
     color:silver;
 }
 
+
+
 .alignroomsgreen{
-    
     float: left;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -553,12 +558,12 @@
     color:white;
 }
 
-.size{
+.sizel2{
     font-size: 13px;
-    color:white;
+    color:silver;
 }
-.size2{
-    font-size: 9px;
+.sizel{
+    font-size: 11px;
     color:white;
 }
 .top{
@@ -927,21 +932,9 @@
    
 }
 
-.textareawidth{
-    width: 280px !important;
-}
-
 .adjust5{
     width:fit-content;
     font-size: 14px;
-
-    
-}
-
-.adjust5nwww{
-    width: 180px !important;
-    font-size: 14px;
-    color:blue;
 
     
 }
@@ -956,13 +949,6 @@
 
 .adjust50{
     width:fit-content;
-    font-size: 12px;
-    font-family:'Times New Roman', Times, serif;
-    
-}
-
-.adjust50b{
-    width: 180px !important;
     font-size: 12px;
     font-family:'Times New Roman', Times, serif;
     
@@ -993,6 +979,156 @@
 
 .btnadjuster{
     margin-top: -7px !important;
+}
+
+.calendarSettings{
+    height: 500px!important;
+    margin:50px!important;
+
+}
+
+    
+@media (max-width: 600px) {
+    .calendarSettings{
+        height: 350px!important;
+        width: 350px!important;
+        margin:50px!important;
+        position: absolute;
+        left:-35px;
+
+    }
+
+
+    .background993{
+        height:auto!important;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    
+    .mobilevi{
+        height:auto!important;
+    }
+
+    .alignroomsgreen{
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        width:120px;
+        height:70px;
+        color:white;
+    }
+
+    .sizel2{
+        font-size: 12px;
+        color:silver;
+    }
+    .sizel{
+        font-size: 8.5px!important;
+        color:white;
+    }
+
+    .card-title{
+        font-size: 13.5px;
+        color:white;
+        font-weight: bolder;
+    }
+
+    .pagebody12{
+        height:600px;
+        width:100%;
+        background-color: rgb(23, 23, 71);
+    }
+
+    .pagebody2{
+        height:700px;
+        width:100%;
+        background-color: rgb(23, 23, 71);
+    }
+
+    .gap6{
+        margin-left: 20px!important;
+    }
+
+    .adjust50{
+        width:12px;
+        font-size: 12px;
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+
+    .adjust50a{
+        width:12px;
+        font-size: 12px;
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+}
+
+@media (max-width: 400px) {
+    .calendarSettings{
+        height: 350px!important;
+        width: 350px!important;
+        margin:50px!important;
+        position: absolute;
+        left:-35px;
+
+    }
+
+    .background993{
+        height:auto!important;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .space{
+        margin-left: 20px;
+        
+    }
+
+    .mobilevi{
+        height:auto!important;
+    }
+
+    .alignroomsgreen{
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        width:120px;
+        height:70px;
+        color:white;
+    }
+
+    .sizel2{
+        font-size: 12px;
+        color:silver;
+    }
+    .sizel{
+        font-size: 8.5px!important;
+        color:white;
+    }
+
+    .card-title{
+        font-size: 13.5px;
+        color:white;
+        font-weight: bolder;
+    }
+
+    .pagebody12{
+        height:600px;
+        width:100%;
+        background-color: rgb(23, 23, 71);
+    }
+
+    .pagebody2{
+        height:700px;
+        width:100%;
+        background-color: rgb(23, 23, 71);
+    }
+
+
 }
 
 

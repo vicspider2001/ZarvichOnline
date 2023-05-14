@@ -39,7 +39,7 @@
 }
 
 .formsize51{
-    width:100%;
+    width:100%!important;
     background-color: rgb(23, 23, 71);
     color:white;
     border-color: white;
@@ -91,5 +91,7 @@
     margin-bottom: 0px;
     background-color:rgb(23, 23, 71);
 }
+
+
 
 

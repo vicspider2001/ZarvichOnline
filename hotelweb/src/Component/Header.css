@@ -1,5 +1,148 @@
+.logo{
+    width: 40;
+    height: 40;
+    position:relative;
+    
+    animation:  logorotate 10s infinite linear; 
+}
+
+.fontopt1{
+    color:silver;
+    margin-right: 8px;
+}
+
+.fontopt2{
+    color:silver;
+    margin-left: 18px!important;
+}
+
+.fontopt3{
+    color:silver;
+    margin-left: 28px!important;
+}
+
+.logoutcolor{
+    color:silver;
+}
+
+@keyframes logorotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.reshape{
+    border-radius: 50% !important;
+    background-color:orangered;
+    margin-left: 8px!important;
+}
+
 .twitr{
     display: inline-block!important;
+    margin-top: 10px!important;
+    
+}
+
+.headerbackgrd{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headerbackgrd3{
+    background-color:black;
+    height: 100%;
+    
+
+}
+
+.carouselBx3{
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carouselBx4{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.menu{
+    width: 100%;
+    margin-Top:60px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menulist{
+    color:silver;
+    text-decoration: none!important;
+    font-size: 25px !important;
+    
+    
+}
+.menulist:hover{
+    color:tomato;
+}
+
+.headerbackgrd4{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    height: auto;
+    width:100%;
+    background-color:black;
+    
+}
+
+.carddiv{
+    max-height:250px;
+    width:auto;
+    background-color:black;
+    flex-flow: row wrap;
+   
+    
+}
+
+.titletxt{
+    font-weight: bold;
+    font-size:18px;
+}
+
+.divimg{
+    height:200px;
+    width:290px;
+}
+.alignbody{
+    margin-top: 10px;
+}
+
+.titlestyle{
+    margin-top: 25%;
+    color:silver;
+}
+
+
+
+
+.headerbackgrd2{
+    background-color:black;
+    margin-top: 1px!important;
+    margin-bottom: 1px!important;
+    height: 80px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 .facebk{
@@ -16,11 +159,12 @@
 
 .navtext{
     text-decoration: none!important;
-    color: gold!important;
+    color: rgb(236, 233, 233)!important;
     
 }
 .buttonformat{
     background-color: rgb(238, 226, 160);
+    
     
 }
 .bg-dark{
@@ -40,65 +184,277 @@
     color: black;
 }
 .alignmenu{
-    margin-left: 580px;
+    margin-left: 484px;
+}
+
+.formatcolor{
+    background-color:black;
+    width:100%;
+}
+
+.size{
+    font-size: 30px;
+    color: silver !important;
+}
+
+.size2{
+    font-size: 40px!important;
+    color: silver !important;
+    position:absolute;
+    left:60px;
+    top:50px;
+}
+
+.imgsize{
+    height:auto;
+}
+
+.carouselBx{
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselBx2{
+    position:absolute;
+    bottom:333px;
+    left:241px;
+   
+
+}
+
+
+
+.size3{
+    font-size: 20px!important;
+    position:absolute;
+    right:30px;
+    top:15px;
+}
+
+.size4{
+    font-size: 20px!important;
+    position:absolute;
+    left:30px;
+    top:35px;
+    color: silver !important;
+}
+
+.size4b{
+    font-size: 16px!important;
+    position:absolute;
+    left:30px;
+    top:55px;
+    color: silver !important;
+}
+
+.size4:hover{
+    color: tomato !important;
+}
+.size5{
+    font-size: 20px!important;
+    position:absolute;
+    left:70px;
+    top:35px;
+    color: silver !important;
+}
+.size5:hover{
+    color: tomato !important;
+}
+.envelopefrmt{
+    color:rgb(236, 233, 233);
 }
 
 .shift{
-    margin-right: 20px;
+    padding: 30px!important;
+}   
+
+.size:hover{
+    color: tomato !important;
 }
 
-.envelopefrmt{
-    color:rgb(236, 233, 233);
-    margin-top: 13px;
+.size2:hover{
+    color: tomato !important;
 }
 
-.color{
-    color: white !important;
+
+
+.formttxt{
+    color: rgb(83, 82, 82);
+    font-size: 60px;
+    margin-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.formttxt2{
+    color: rgb(83, 82, 82);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.Ikem{
+    position: absolute;
+    right: 80px !important;
+    color:burlywood;
+    font-family:cursive;
 
 }
 
-.detext{
-    color: silver;
-    margin-right: 20px;
-}
-.black{
-    background-color:black;
+.Adriel{
+    position: absolute;
+    right: 80px !important;
+    top:100px !important;
+    color:orangered;
+    font-family:cursive;
+
 }
 
-.buttncontrol1{
-    margin-left: 760px;
+
+@media (max-width: 600px) {
+    .carouselBx2{
+        position:absolute;
+        bottom:16px;
+        left:26px;
+       
+    }
+
+    .reshape{
+        border-radius: 50% !important;
+        background-color:orangered;
+    }
+
+    .carouselBx3{
+        font-size:30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .formttxt{
+        color: rgb(83, 82, 82);
+        font-size: 40px;
+        margin-top: 40px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .size2{
+        font-size: 30px!important;
+        color: silver !important;
+        position:absolute;
+        left:15px;
+        top:50px;
+    }
+
+    .size2:hover{
+        color: tomato !important;
+    }
+
+    .menulist:hover{
+        color:tomato;
+    }
+
+    .size:hover{
+        color: tomato !important;
+    }
+
+    .headerbackgrd4{
+        display:flex;
+        justify-content:center;
+        align-items:stretch;
+        width:100%;
+        background-color:black;
+        
+    }
+    
+    .carddiv{
+       
+        width: 200px !important;
+        background-color:black;
+        flex-flow: row wrap;
+        
+    }
+
+    .titletxt{
+        font-weight: bold;
+        font-size:13px;
+        margin-top:40px;
+    }
+
+    .measure{
+        width:100%
+    }
+
+    .divimg{
+        height:100px;
+        width:100px;
+    }
+
+    .bodytxt{
+        display:none;
+    }
+
+    .titlestyle{
+       
+        font-size: 20px;
+        color:silver;
+        margin-top:10px;
+    }
+
+    .menulist{
+        color:silver;
+        text-decoration: none!important;
+        font-size: 18px !important;
+        
+        
+    }
+    
+    
     
 }
 
-.buttncontrol5{
-    margin-left: 1000px;
+@media (max-width: 400px) {
+    .carouselBx2{
+        position:absolute;
+        bottom:16px;
+        left:26px;
+       
+    }
+
+    .reshape{
+        border-radius: 50% !important;
+        background-color:orangered;
+    }
+
+    .size2{
+        font-size: 30px!important;
+        color: silver !important;
+        position:absolute;
+        left:15px;
+        top:50px;
+    }
+
+    .size2:hover{
+        color: tomato !important;
+    }
+
+    .menulist:hover{
+        color:tomato;
+    }
+
+    .size:hover{
+        color: tomato !important;
+    }
+
+    .menulist{
+        color:silver;
+        text-decoration: none!important;
+        font-size: 18px !important;
+        
+        
+    }
     
 }
 
-.buttncontrol3{
-    margin-left: 10px;
-    
-}
-.buttncontrol6{
-    margin-left: 8px;
-    
-}
-.buttncontrol2{
-    margin-left: 10px;
-    
-}
-
-.setmargin{
-    margin-left: 240px;
-    
-}
-
-.setmargin2{
-    margin-left: 240px;
-    
-}
-
-.buttncontrol7{
-    margin-left: 1px;
-    
-}

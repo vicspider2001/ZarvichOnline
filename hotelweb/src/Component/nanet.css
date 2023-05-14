@@ -1,0 +1,342 @@
+.pageHead{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+   background-color:black;
+   height:100%;
+   position:relative;
+
+}
+
+.editPix{
+    width:80%;
+    margin-top:10px;
+    height: 60% !important;
+    
+
+
+}
+
+.textedi{
+    font-size: 60px;
+    font-weight: bold;
+    position:absolute;
+    left:490px;
+    top:180px;
+    color:white;
+    
+}
+
+.picboard{
+    position:relative;
+    height:550px;
+    width:100%;
+
+}
+
+.foto{
+    position:absolute;
+    left:10px;
+    top:20px;
+    
+}
+
+.editfoto{
+    box-shadow: 10px 15px 20px rgb(45, 49, 51)!important;
+    width:380px;
+    height:280px;
+}
+
+.textboard{
+    position:absolute;
+    padding:15px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left:424px;
+
+}
+
+
+
+
+.logo2{
+    position:absolute;
+    left:342px;
+    top:254px;
+    animation:  logorotate 10s infinite linear; 
+}
+
+.md{
+    position:absolute;
+    left:578px;
+    top:397px;
+    
+}
+
+.md2{
+    position:absolute;
+    left:683px;
+    top:422px;
+}
+
+.md3{
+    position:absolute;
+    right:60px;
+    top:359px;
+}
+
+.md3b{
+    width:294px;
+    height:180px;
+}
+
+.image{
+    border-radius: 50%!important;
+    width:100px;
+    height:100px;
+}
+@keyframes logorotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+.missionvission{
+    height:100%;
+    position:relative;
+    background-color:midnightblue
+}
+
+.mission{
+    position:absolute;
+    right:304px;
+    top:486px;
+}
+
+.size13{
+    font-size: 20px!important;
+    position:absolute;
+    right:30px;
+    top:15px;
+}
+
+.missionStatement{
+    position:absolute;
+    left:10px;
+    top:96px;
+    color:white;
+    width:auto;
+}
+
+.cardbdy{
+    position:absolute
+}
+
+.aboutfmt2{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.aboutfmt{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+   
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .textedi{
+        font-size: 30px;
+        font-weight: bold;
+        position:absolute;
+        left:115px;
+        top:50px;
+        color:white;
+        
+    }    
+    .mission{
+        position:absolute;
+        right:34px;
+        top:540px;
+    }
+
+    .picboard{
+        position:relative;
+        height:570px;
+        width:100%;
+    
+    }
+    
+    .foto{
+        position:absolute;
+        left:10px;
+        top:20px;
+        
+    }
+    
+    .editfoto{
+       display:none;
+    }
+    
+    .textboard{
+        position:absolute;
+        padding:35px;
+        text-align: justify;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        left:0px;
+        
+    
+    }
+    .cut{
+        display:none;
+    }
+    
+    
+    .logo2{
+        display:none;
+    }
+    
+    .md{
+        
+        position:absolute;
+        left:30px;
+        top: 470px !important;;
+        
+    }
+    
+    .md2{
+        position:absolute;
+        left:123px;
+        top:480px;
+    }
+    
+    .md3{
+        position:absolute;
+        left:190px;
+        top:459px;
+    }
+    .md3b{
+        width:194px;
+        height:100px;
+    }
+    
+    .image{
+        border-radius: 50%!important;
+        width:80px;
+        height:80px;
+    }
+    /* @keyframes logorotate{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    
+    } */
+    
+
+   
+
+}
+
+
+@media (max-width: 1100px) {
+    .textedi{
+        font-size: 30px;
+        font-weight: bold;
+        position:absolute;
+        left:115px;
+        top:50px;
+        color:white;
+        
+    }    
+
+    .mission{
+        position:absolute;
+        right:34px;
+        top:540px;
+    }
+    
+
+    
+
+    .picboard{
+        position:relative;
+        height:570px;
+        width:100%;
+    
+    }
+    
+    .foto{
+        position:absolute;
+        left:10px;
+        top:20px;
+        
+    }
+    
+    .editfoto{
+       display:none;
+    }
+    
+    .textboard{
+        position:absolute;
+        padding:35px;
+        text-align: justify;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        left:0px;
+        
+    
+    }
+    .cut{
+        display:none;
+    }
+    
+    
+    .logo2{
+        display:none;
+    }
+    
+    .md{
+        
+        position:absolute;
+        left:30px;
+        top: 470px !important;;
+        
+    }
+    
+    .md2{
+        position:absolute;
+        left:123px;
+        top:480px;
+    }
+    
+    .md3{
+        position:absolute;
+        left:190px;
+        top:459px;
+    }
+    .md3b{
+        width:194px;
+        height:100px;
+    }
+    
+    .image{
+        border-radius: 50%!important;
+        width:80px;
+        height:80px;
+    }
+    
+
+}

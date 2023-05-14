@@ -1,72 +1,147 @@
 import React, { Component } from 'react';
-import '../Reception.css';
-// import NumberFormat from 'react-number-format';
-// import moment from 'moment';
-import FLogin from '../../FLogin';
+import './Reception.css';
+import NumberFormat from 'react-number-format';
+import moment from 'moment';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+import addDays from 'date-fns/addDays';
+import Spinner from 'react-bootstrap/Spinner';
+import Newheader from './Newheader';
+import Adlogin from './Adlogin';
+
+const occuppancyUrl = "https://us3.localto.net:39344/checkin";
+const checkInDataUrl = "https://us3.localto.net:39344/getrmstatus";
+const occuppancySearchData = "https://us3.localto.net:39344/getDailyOccuppancy?";
 
 
-const occuppancyUrl = "http://10.1.0.99:3333/checkin";
-const checkInDataUrl = "http://10.1.0.99:3333/getrmstatus";
-const userName = "http://10.1.0.99:3333/fofUserInfo";
-const getHotelAddress = "http://10.1.0.99:3333/hoteladdress";
-
-class HouseKeepingPrint extends Component {
+class CheckInReport extends Component {
     constructor(props) {
         super(props);
         console.log(">>>Inside ROConstructor")
 
         this.state = {
             occuppancyData:'',
+            occuppancySearch:'',
+            date:'',
             percentOcc:'',
             NumOccuppied:'',
             NumAllRms:'',
             AllRms:'',
             percentCalculated:'',
-            loginDetails:'',
-            name:localStorage.getItem('userInfo'),
-            login:'',
-            Blogin:'',
+           Blogin:'',
 
-            Hotelname:'',
-            Hoteladdress:'',
-            Hotelphone:''
         }
+        this.checkinhandleChange = this.checkinhandleChange.bind(this);
+        
+
+    }
+
+    checkinhandleChange(date) {
+        this.setState({
+            date: date,
+           
+
+        });
+    }
+
+    renderDate() {
+        return (
+            <div>
+                <DatePicker
+                    selected={this.state.date}
+                    onChange={this.checkinhandleChange}
+                    maxDate={addDays(new Date(),0)}
+                    dropdownMode="select"
+                    dateFormat="MMM/d/ yyyy"
+                    className="form-control mb-3 formsize printing alignText112"
+                    placeholderText='Select Start Date'
+                />
+            </div>
+        )
+    }
+
+    findOccuppancySearch(){
+
+        var searchDate = moment(this.state.date).format('MMM DD YYYY')
+
+        this.setState({occuppancyData:''})
+
+        fetch(`${occuppancySearchData}occuppancyToday=${searchDate}`, {method:'GET'})
+        .then((res) => res.json())
+        .then((data) => {
+            
+            data.map((item) =>{
+                this.setState({
+                    occuppancyData:item.OccuppancyData
+                })
+                return 'ok'
+            })
+        
+        });
+
+
+    }
+
+    resetOccupancy(){
+
+        // var searchDate = moment(this.state.date).format('MMM DD YYYY')
+
+        this.setState({occuppancyData:'',date:''})
+
+        fetch(`${occuppancyUrl}`, {method:'GET'})
+        .then((res) => res.json())
+        .then((data) => {
+            this.setState({
+                occuppancyData:data
+            })
+            
+        });
+
 
     }
 
     renderOccupancyData(data){
         if (data){
-            data.sort((a, b) => new Date(a.roomNumbers) - new Date(b.roomNumbers));
+            data.sort((a, b) => (a.roomNumbers) - (b.roomNumbers));
             return data.map((item) => {
-                // var arrDt = moment(item.arrivalDate).format('YYYY-DD-MMM')
-                // var depDt = moment(item.departureDate).format('YYYY-DD-MMM')
+                var arrDt = moment(item.arrivalDate).format('YYYY-DD-MMM')
+                var depDt = moment(item.departureDate).format('YYYY-DD-MMM')
                 return(
                     <>
                         <tr key= {item._id}>
-                            {/* <td className="table-light table-striped adjust225">{item.fname} {item.lname}</td> */}
-                            <td className="table-light table-striped adjust2">{item.roomNumbers}</td>
-                            <td className="table-light table-striped adjust2">{item.roomtypeName}</td>
-                            {/* <td className="table-light table-striped adjust20"><NumberFormat value= {item.roomRate}thousandSeparator={true}displayType={"text"}/></td>
+                            <td className="table-light table-striped adjust225">{item.fname} {item.lname}</td>
+                            <td className="table-light table-striped adjust222">{item.roomNumbers}</td>
+                            <td className="table-light table-striped adjust225">{item.roomtypeName}</td>
+                            <td className="table-light table-striped adjust20"><NumberFormat value= {item.roomRate}thousandSeparator={true}displayType={"text"}/></td>
                             <td className="table-light table-striped adjust222">{item.discounType}</td>
                             <td className="table-light table-striped adjust20"><NumberFormat value= {item.discountAmount}thousandSeparator={true}displayType={"text"}/></td>
                             <td className="table-light table-striped adjust20"><NumberFormat value= {item.dailyRate}thousandSeparator={true}displayType={"text"}/></td>
                             <td className="table-light table-striped adjust2">{arrDt}</td>
-                            <td className="table-light table-striped adjust2">{depDt}</td> */}
+                            <td className="table-light table-striped adjust2">{depDt}</td>
                                     
                         </tr>
                     </>
                 )
             })
         }
+        else{
+            return(
+                <>
+                    <Spinner animation="border" variant="primary" />
+                    <Spinner animation="border" variant="danger" />
+                    <Spinner animation="border" variant="warning" />
+                </>
+            )
+        }
     }
    
 
     render() {
         console.log(">>> Inside ROtrender", this.state)
-        if(localStorage.getItem('userInfo')==null||this.state.Blogin===false){
+        if(localStorage.getItem('rtk')==null||localStorage.getItem('userdata')===null){
             return(
                 <>
-                    <FLogin/>
+                    <Adlogin/>
                 </>
             )
 
@@ -74,32 +149,27 @@ class HouseKeepingPrint extends Component {
         
         return (
             <>
+                <Newheader/>
                 <div className="container">
-                    <div>
-                        <img src= "https://i.ibb.co/sHNG07v/logo-5c.png" className="alignImg2" style={{width:"100px", height:"70px"}} alt="companylogo"/>
-                    </div>
-                    <center>
-                        <h6>{this.state.Hotelname}</h6>
-                        <p className="textSize">{this.state.Hoteladdress}</p>
-                        <p className="textSize">{this.state.Hotelphone}</p>
-
-                    </center>
+                    
                     <br/>
-                    <center><h5>Housekeeping Print</h5></center>
+                    <center><h5>Room Occupancy Report</h5>
+                        
+                    </center>
                     <br/>
                     <table className="table table-hover">
                     
                         <thead className="table-warning">
                             <tr>
-                                {/* <th className="adjust5">Names</th> */}
-                                <th className="adjust5">Room Num</th>
-                                <th className="adjust5">Room Type</th>
-                                {/* <th className="adjust5">Room Rate(NGN)</th>
-                                <th className="adjust5">Discount Type</th>
-                                <th className="adjust5">Discount Amount</th>
-                                <th className="adjust5">Daily Rate(NGN)</th>
-                                <th className="adjust5">Arrival Date</th>
-                                <th className="adjust5">Departure Date</th> */}
+                                <th className="adjust5">Names</th>
+                                <th className="adjust5">Room</th>
+                                <th className="adjust5">Type</th>
+                                <th className="adjust5">Rate</th>
+                                <th className="adjust5">DiscType</th>
+                                <th className="adjust5">DiscAmt</th>
+                                <th className="adjust5">Daily Rate</th>
+                                <th className="adjust5">Arr</th>
+                                <th className="adjust5">Dep</th>
                                 
                                         
                             </tr>
@@ -128,7 +198,7 @@ class HouseKeepingPrint extends Component {
 
                     <center>
                         <button className="btn btn-warning printing" onClick={ () => window.print()}>Print</button>
-                        <button className="btn btn-danger printing space" onClick={ () => this.props.history.push('/ReceptionMenu')}>Close</button>
+                        <button className="btn btn-danger printing space" onClick={ () => this.props.history.push('/')}>Close</button>
                     </center>
                    
 
@@ -173,44 +243,8 @@ class HouseKeepingPrint extends Component {
             
         })
 
-        fetch(`${userName}`, {method:'GET'})
-        .then((resp) => resp.json())
-        .then((data) => {
-            this.setState({
-                loginDetails:data
-            })
-            
-        })
-
-        fetch(`${getHotelAddress}`, {method:'GET'})
-        .then((res) => res.json())
-        .then((data) => {
-            data.map((item)=>{
-                this.setState({
-                    Hotelname:item.HotelName,
-                    Hoteladdress:item.Address,
-                    Hotelphone:item.Phone
-                
-                })
-                return 'ok'
-            })
-            
-        })
-
-        this.myTimer = setTimeout(() => {
-
-            var loginInfo = this.state.loginDetails;
-            var nameDetails = this.state.name;
-            if(loginInfo.some(item => item.name === nameDetails)){
-                this.setState({Blogin:true})
-            }
-            else{
-                this.setState({Blogin:false})
-            }
-        },1000);
-       
-
+        
     }
 }
 
-export default HouseKeepingPrint;
+export default CheckInReport;
